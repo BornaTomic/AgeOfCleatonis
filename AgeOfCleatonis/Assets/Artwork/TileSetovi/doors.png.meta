@@ -1626,11 +1626,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      doors_34: -1892659944
-      doors_6: -1902841712
-      doors_58: 752432378
       doors_42: -1344141587
+      doors_6: -1902841712
+      doors_34: -1892659944
       doors_57: -1477736956
+      doors_23: 786197584
       doors_16: -148950933
       doors_71: 1074028768
       doors_33: 874879062
@@ -1658,9 +1658,9 @@ TextureImporter:
       doors_29: 907458306
       doors_24: -2019468721
       doors_59: -1269892153
+      doors_47: 50771300
       doors_13: -1693205579
       doors_5: -1578695572
-      doors_47: 50771300
       doors_67: 810047134
       doors_44: 164303747
       doors_28: 1696611107
@@ -1693,11 +1693,11 @@ TextureImporter:
       doors_61: 1554398177
       doors_8: -1496684672
       doors_45: 1409045377
-      doors_23: 786197584
       doors_9: 256735636
       doors_2: -1673329129
       doors_10: -401309620
       doors_21: 891290037
+      doors_58: 752432378
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -23,7 +23,7 @@ public class HouseInteraction : MonoBehaviour
         if (playerInRange)
         {
             dialogBox.SetActive(true);
-            dialogText.text = dialog;
+            //dialogText.text = dialog;
 
             if (Input.GetKeyDown(KeyCode.E))
             {

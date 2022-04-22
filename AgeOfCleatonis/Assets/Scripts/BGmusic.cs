@@ -24,6 +24,6 @@ public class BGmusic : MonoBehaviour
             return;
         }
         instance = this;
-        DontDestroyOnLoad(this);
+        ///DontDestroyOnLoad(this);
     }
 }

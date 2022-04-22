@@ -22,63 +22,63 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             transform.Translate(0, speed * Time.deltaTime, 0);
-            //amanam.SetInteger("AnimState", 1);
-            //amanam.SetFloat("walkX", 0);
-            //amanam.SetFloat("walkY", 1);
+            amanam.SetInteger("AnimState", 1);
+            amanam.SetFloat("WalkX", 0);
+            amanam.SetFloat("WalkY", 1);
             pov = POV.gore;
         }
         else if (Input.GetKey(KeyCode.S))
         {
             transform.Translate(0, -speed * Time.deltaTime, 0);
-            //amanam.SetInteger("AnimState", 1);
-            //amanam.SetFloat("walkX", 0);
-            //amanam.SetFloat("walkY", -1);
-            srajt.flipX = true;
+            amanam.SetInteger("AnimState", 1);
+            amanam.SetFloat("WalkX", 0);
+            amanam.SetFloat("WalkY", -1);
+            //srajt.flipX = true;
             pov = POV.dolje;
         }
         else if (Input.GetKey(KeyCode.A))
         {
             transform.Translate(-speed * Time.deltaTime, 0, 0);
-            //amanam.SetInteger("AnimState", 1);
-            //amanam.SetFloat("walkX", -1);
-            //amanam.SetFloat("walkY", 0);
+            amanam.SetInteger("AnimState", 1);
+            amanam.SetFloat("WalkX", -1);
+            amanam.SetFloat("WalkY", 0);
             pov = POV.lijevo;
         }
         else if (Input.GetKey(KeyCode.D))
         {
             transform.Translate(speed * Time.deltaTime, 0, 0);
-            //amanam.SetInteger("AnimState", 1);
-            //amanam.SetFloat("walkX", 1);
-            //amanam.SetFloat("walkY", 0);
+            amanam.SetInteger("AnimState", 1);
+            amanam.SetFloat("WalkX", 1);
+            amanam.SetFloat("WalkY", 0);
             pov = POV.desno;
         }
         else
         {
-            //amanam.SetInteger("AnimState", 0);
+            amanam.SetInteger("AnimState", 0);
             if (pov == POV.gore)
             {
-                //amanam.SetFloat("idleX", 0);
-                //amanam.SetFloat("idleY", 1);
+                amanam.SetFloat("IdleX", 0);
+                amanam.SetFloat("IdleY", 1);
             }
 
             else if (pov == POV.dolje)
             {
-                //amanam.SetFloat("idleX", 0);
-                //amanam.SetFloat("idleY", -1);
+                amanam.SetFloat("IdleX", 0);
+                amanam.SetFloat("IdleY", -1);
             }
 
             else if (pov == POV.desno)
             {
-                //amanam.SetFloat("idleX", 1);
-                //amanam.SetFloat("idleY", 0);
-                srajt.flipX = false;
+                amanam.SetFloat("IdleX", 1);
+                amanam.SetFloat("IdleY", 0);
+                //srajt.flipX = false;
             }
 
             else if (pov == POV.lijevo)
             {
-                //amanam.SetFloat("idleX", -1);
-                //amanam.SetFloat("idleY", 0);
-                srajt.flipX = true;
+                amanam.SetFloat("IdleX", -1);
+                amanam.SetFloat("IdleY", 0);
+                //srajt.flipX = true;
             }
         }
     }

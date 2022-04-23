@@ -645,7 +645,7 @@ GameObject:
   - component: {fileID: 600751466}
   - component: {fileID: 600751465}
   m_Layer: 0
-  m_Name: townsfolk_39
+  m_Name: djed sa metlom NPC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -777,7 +777,7 @@ GameObject:
   - component: {fileID: 733612776}
   - component: {fileID: 733612775}
   m_Layer: 0
-  m_Name: townsfolk_87
+  m_Name: svecenik NPC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7689,7 +7689,7 @@ GameObject:
   - component: {fileID: 1284644412}
   - component: {fileID: 1284644411}
   m_Layer: 0
-  m_Name: elder_6
+  m_Name: "starac u pla\u0161tu NPC"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7795,7 +7795,7 @@ GameObject:
   - component: {fileID: 1327690148}
   - component: {fileID: 1327690147}
   m_Layer: 0
-  m_Name: bard_45
+  m_Name: Pustolov koji spava NPC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33630,7 +33630,7 @@ GameObject:
   - component: {fileID: 2020462691}
   - component: {fileID: 2020462690}
   m_Layer: 0
-  m_Name: farmer_57
+  m_Name: farmer 2 NPC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

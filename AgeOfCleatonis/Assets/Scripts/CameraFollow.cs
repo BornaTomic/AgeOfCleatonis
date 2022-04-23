@@ -25,7 +25,7 @@ public class CameraFollow : MonoBehaviour
             transform.position = Vector3.Lerp(transform.position, targetPosition, smoothing);
             if (Input.GetMouseButtonDown(0))
             {
-                Cursor.lockState = CursorLockMode.Locked;
+                //Cursor.lockState = CursorLockMode.Locked;
             }
         }
     }

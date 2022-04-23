@@ -17193,6 +17193,8 @@ GameObject:
   - component: {fileID: 1655732270}
   - component: {fileID: 1655732272}
   - component: {fileID: 1655732271}
+  - component: {fileID: 1655732274}
+  - component: {fileID: 1655732273}
   m_Layer: 0
   m_Name: Tilemap
   m_TagString: Untagged
@@ -41796,6 +41798,84 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!61 &1655732273
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655732269}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 14.496403, y: -14.983999}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.210972, y: 5.292713}
+  m_EdgeRadius: 0
+--- !u!68 &1655732274
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655732269}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -30.956934, y: -11.828729}
+  - {x: -30.951921, y: 14.185772}
+  - {x: 43.309624, y: 14.09403}
+  - {x: 43.164436, y: 13.997238}
+  - {x: 43.164436, y: 13.561671}
+  - {x: 42.948864, y: -9.579898}
+  - {x: 42.986694, y: -9.968844}
+  - {x: 42.9867, y: -9.968845}
+  - {x: 42.685795, y: -9.663295}
+  - {x: 42.61087, y: -12.650394}
+  - {x: 38.452576, y: -12.585454}
+  - {x: 38.35883, y: -28.82561}
+  - {x: 32.458096, y: -28.683426}
+  - {x: 32.600285, y: -12.4741745}
+  - {x: 21.343317, y: -12.545271}
+  - {x: 21.414892, y: -27.6876}
+  - {x: 17.608145, y: -27.794315}
+  - {x: 17.614798, y: -19.572313}
+  - {x: 11.342104, y: -19.585037}
+  - {x: 11.314585, y: -23.69402}
+  - {x: -0.3313675, y: -23.671465}
+  - {x: -0.38100016, y: -12.735308}
+  - {x: -10.522596, y: -12.6477165}
+  - {x: -10.481912, y: -19.821026}
+  - {x: -12.467422, y: -19.777388}
+  - {x: -12.401845, y: -12.535894}
+  - {x: -24.571411, y: -12.476497}
+  - {x: -24.421526, y: -27.765108}
+  - {x: -28.363274, y: -27.797684}
+  - {x: -28.368292, y: -12.5240345}
+  - {x: -30.90351, y: -12.494067}
+  - {x: -31.108614, y: -11.495081}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1714583790
 GameObject:
   m_ObjectHideFlags: 0

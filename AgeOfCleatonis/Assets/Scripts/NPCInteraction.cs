@@ -31,23 +31,22 @@ public class NPCInteraction : MonoBehaviour
             //Cursor.lockState = CursorLockMode.None;
             //tekstOdNpca.SetActive(true);
             npcInteraction.SetActive(true);
-            tekstOdNpca.text = "Bok, moje ime je Mirko, imam jedan zadatak za tebe.";
+            tekstOdNpca.text = "Hello there, my name is Joe, I have a task for you.";
             //odg1.SetActive(true);
             //zavrKonv.SetActive(true);
             //tekst.SetActive(false);
         }
 
-        else if (Input.GetKeyDown(KeyCode.E) && isCollision && Quest.coinCounter == 1)
+        else if (Input.GetKeyDown(KeyCode.E) && isCollision && Quest.coinCounter == 5)
         {
             //Cursor.lockState = CursorLockMode.None;
             //tekstOdNpca.SetActive(true);
             npcInteraction.SetActive(true);
             quest.SetActive(false);
-            //text.text = "Cestitam, evo ti 100kn kao nagrada.";
+            tekstOdNpca.text = "Thank you very much! Here you go, a 100kn.";
             Novac.novac += 100;
             doneQuest = true;
         }
-        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -74,17 +73,17 @@ public class NPCInteraction : MonoBehaviour
 
     public void Odg1()
     {
-        //text.text = "Tvoj zadatak je skupiti onaj zuti novcic.";
+        tekstOdNpca.text = "I want you to collect 5 golden coins for my collection. I will pay you well.";
         odg2.SetActive(true);
         odg1.SetActive(false);
     }
 
     public void Odg2()
     {
-        //text.text = "Dobit ces nagradu kada se vratis.";
-        //odg2.SetActive(false);
+        tekstOdNpca.text = "You will get your reward once you come back with my 5 coins.";
+        odg2.SetActive(false);
         //zavrKonv.SetActive(false);
-        npcInteraction.SetActive(false);
+        //npcInteraction.SetActive(false);
         quest.SetActive(true);
         //coin.SetActive(true);
     }
@@ -92,7 +91,7 @@ public class NPCInteraction : MonoBehaviour
     public void ZavrKonv()
     {
         //tekst.SetActive(false);
-        //isCollision = false;
+        isCollision = false;
         //tekstOdNpca.SetActive(false);
         //odg1.SetActive(false);
         //odg2.SetActive(false);

@@ -17,6 +17,6 @@ public class Novac : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        text.text = "Novac: " + novac + " kn";
+        text.text = "Money: " + novac + " kn";
     }
 }

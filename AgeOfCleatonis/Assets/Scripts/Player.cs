@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     public float speed = 7f;
     private Animator amanam;
     private SpriteRenderer srajt;
-    public int health = 100;
+    public int health = 5;
     public POV pov = POV.dolje;
     // Start is called before the first frame update
     void Start()
@@ -80,6 +80,14 @@ public class Player : MonoBehaviour
                 amanam.SetFloat("IdleY", 0);
                 //srajt.flipX = true;
             }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            health--;
         }
     }
 }

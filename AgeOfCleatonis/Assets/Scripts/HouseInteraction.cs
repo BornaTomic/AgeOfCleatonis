@@ -8,8 +8,8 @@ public class HouseInteraction : MonoBehaviour
 {
     public string sceneName;
     public GameObject dialogBox;
-    public Text dialogText;
-    public string dialog;
+    //public Text dialogText;
+    //public string dialog;
     public bool playerInRange = false;
     // Start is called before the first frame update
     void Start()

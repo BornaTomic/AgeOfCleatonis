@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/Level1.unity
+    path: 
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Level2.unity
@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Ku\u0107a.unity"
     guid: c54eedb4bc8f02448a4bcadb41d38e4e
+  - enabled: 1
+    path: Assets/Scenes/Level 1 novi.unity
+    guid: cafccb8cf191a5948878a3d9e992bfea
+  - enabled: 1
+    path: Assets/Scenes/Ribnjak.unity
+    guid: af57a20e60be2c747b4a126db3208115
+  - enabled: 1
+    path: "Assets/Scenes/\u0160uma.unity"
+    guid: 9a4f6994ef1460440838acc21a46ac6a
   m_configObjects: {}

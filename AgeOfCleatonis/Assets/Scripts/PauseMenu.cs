@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    public bool IsPaused = false;
+    public static bool IsPaused = false;
     // Start is called before the first frame update
-    GameObject PauseUI;
+    public GameObject PauseUI;
     void Start()
     {
         

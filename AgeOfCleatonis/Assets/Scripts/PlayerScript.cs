@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Player : MonoBehaviour
+public class PlayerScript : MonoBehaviour
 {
     public float speed = 7f;
     private Animator amanam;
@@ -88,6 +89,10 @@ public class Player : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             health--;
+            if (health == 0)
+            {
+                SceneManager.LoadScene("GameOver");
+            }
         }
     }
 }

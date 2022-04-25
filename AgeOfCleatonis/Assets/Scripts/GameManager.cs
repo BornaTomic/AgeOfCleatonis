@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
- 
 
 
- 
+
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     //public int coins = 0;
     public int Health = 100;
     // Start is called before the first frame update
- 
+
     void Start()
     {
 
@@ -35,3 +35,4 @@ public class GameManager : MonoBehaviour
             DestroyImmediate(gameObject);
         }
     }
+}

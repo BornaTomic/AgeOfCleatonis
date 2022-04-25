@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
+    public GameObject GameUI;
+    public GameObject PauseUI;
+    public bool IsPaused = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +17,14 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (instance is null)
+        {
+            instance = this;
+            DontDestroyOnLoad(this);
+        }
+        else
+        {
+            DestroyImmediate(gameObject);
+        }
     }
 }

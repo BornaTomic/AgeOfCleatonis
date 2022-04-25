@@ -384,8 +384,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -164.97733, y: 19.538288}
-  m_SizeDelta: {x: 168.4426, y: 58.7775}
+  m_AnchoredPosition: {x: -298.5492, y: 55.0363}
+  m_SizeDelta: {x: 339.4271, y: 110.0729}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &771208779
 MonoBehaviour:
@@ -732,7 +732,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 798201837}
-  - {fileID: 1291453889}
+  - {fileID: 2088175334}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -741,7 +741,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1291453888
+--- !u!1 &2088175333
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -749,9 +749,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1291453889}
-  - component: {fileID: 1291453891}
-  - component: {fileID: 1291453890}
+  - component: {fileID: 2088175334}
+  - component: {fileID: 2088175336}
+  - component: {fileID: 2088175335}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -759,13 +759,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1291453889
+--- !u!224 &2088175334
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291453888}
+  m_GameObject: {fileID: 2088175333}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -776,23 +776,23 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -342, y: 91}
-  m_SizeDelta: {x: 307.8472, y: 63.8817}
+  m_AnchoredPosition: {x: 0, y: 414}
+  m_SizeDelta: {x: 1337.7358, y: 191.659}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1291453890
+--- !u!114 &2088175335
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291453888}
+  m_GameObject: {fileID: 2088175333}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -800,26 +800,26 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: 58b5bc7243350c84d9ef80504fc0d5d5, type: 3}
+    m_FontSize: 200
     m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 200
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Age of Cleatonis
---- !u!222 &1291453891
+  m_Text: Age Of Cleatonis
+--- !u!222 &2088175336
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291453888}
+  m_GameObject: {fileID: 2088175333}
   m_CullTransparentMesh: 1
 --- !u!1 &2140792038
 GameObject:
@@ -857,8 +857,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -101.1, y: -67.7}
-  m_SizeDelta: {x: 130.9973, y: 44.6559}
+  m_AnchoredPosition: {x: -138.06, y: -160.2591}
+  m_SizeDelta: {x: 276.12, y: 99.371}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2140792040
 MonoBehaviour:

@@ -18,7 +18,7 @@ public class Menu : MonoBehaviour
     }
     public void PlayGame()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Level 1 novi");
     }
     public void QuitGame()
     {

@@ -14,6 +14,9 @@ public class GameManager : MonoBehaviour
     public GameObject PauseUI;
     public bool IsPaused;
     //public int coins = 0;
+ LM
+    public int health = 0;
+
     public int Health = 100;
     // Start is called before the first frame update
  RS
@@ -32,6 +35,7 @@ public class GameManager : MonoBehaviour
     public int Health;
 
 
+ main
     // Start is called before the first frame update
     void Start()
     {
@@ -50,6 +54,8 @@ public class GameManager : MonoBehaviour
             DestroyImmediate(gameObject); 
         }
     }
+ LM
+
  main
 
             DestroyImmediate(gameObject);
@@ -58,7 +64,7 @@ public class GameManager : MonoBehaviour
  RS
 }
 
-
+ main
     // Update is called once per frame
     void Update()
     {

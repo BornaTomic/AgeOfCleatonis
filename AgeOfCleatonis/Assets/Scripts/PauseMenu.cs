@@ -30,21 +30,21 @@ public class PauseMenu : MonoBehaviour
     }
     public void Resume()
     {
-BT
+
         PauseManager.instance.PauseUI.SetActive(false);
 
         //GameManager.instance.PauseUI.SetActive(false);
- main
+
         Time.timeScale = 1f;
         IsPaused = false;
     }
     void PauseOn()
     {
- BT
+
         PauseManager.instance.PauseUI.SetActive(true);
 
         //GameManager.instance.PauseUI.SetActive(true);
- main
+
         Time.timeScale = 0f;
         IsPaused = true;
     }

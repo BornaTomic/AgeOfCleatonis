@@ -20638,8 +20638,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.47720206, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -296.7886, y: -97.378}
-  m_SizeDelta: {x: 156.4124, y: 194.76}
+  m_AnchoredPosition: {x: -292.5417, y: -94.498085}
+  m_SizeDelta: {x: 170.2455, y: 200.5238}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1241601183
 MonoBehaviour:
@@ -21042,6 +21042,7 @@ GameObject:
   - component: {fileID: 1583935262}
   - component: {fileID: 1583935261}
   - component: {fileID: 1583935264}
+  - component: {fileID: 1583935265}
   m_Layer: 0
   m_Name: orc1_1
   m_TagString: Untagged
@@ -21064,7 +21065,7 @@ MonoBehaviour:
   currentState: 0
   health: 3
   enemyName: Marmelada
-  baseAttack: 0
+  baseAttack: 1
   moveSpeed: 3
   target: {fileID: 98386763}
   chaseRadius: 5
@@ -21156,6 +21157,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &1583935265
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583935260}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.1875, y: 1.875}
+    newSize: {x: 1.1875, y: 1.875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1875, y: 1.875}
+  m_EdgeRadius: 0
 --- !u!1 &1595152050
 GameObject:
   m_ObjectHideFlags: 0

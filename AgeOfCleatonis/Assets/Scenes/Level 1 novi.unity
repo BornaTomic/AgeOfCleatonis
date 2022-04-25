@@ -21079,7 +21079,7 @@ MonoBehaviour:
   enemyName: Marmelada
   baseAttack: 1
   moveSpeed: 3
-  target: {fileID: 0}
+  target: {fileID: 8629832883007972646, guid: ac7f78f63a0e4904fb57a470e658a969, type: 3}
   chaseRadius: 5
   attackRadius: 1
 --- !u!212 &1583935262

@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+
+
+
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
@@ -10,18 +14,36 @@ public class GameManager : MonoBehaviour
     public GameObject PauseUI;
     public bool IsPaused;
     //public int coins = 0;
-    //public int health = 0;
+ LM
+    public int health = 0;
+
+    public int Health = 100;
     // Start is called before the first frame update
+
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+ RS
+
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public int Health;
 
 
+ main
     // Start is called before the first frame update
     void Start()
     {
 
+ main
+ main
         if (instance is null)
         {
             instance = this;
@@ -29,15 +51,29 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+ RS
+            DestroyImmediate(gameObject);
+        }
+    }
+}
+
+ RS
+
 
             DestroyImmediate(gameObject); 
         }
     }
+ LM
+
+ main
 
             DestroyImmediate(gameObject);
         }
     }
+ RS
+}
 
+ main
     // Update is called once per frame
     void Update()
     {
@@ -50,3 +86,5 @@ public class GameManager : MonoBehaviour
 
     }
 }
+ main
+ main

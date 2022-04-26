@@ -11,11 +11,13 @@ public class PlayerScript : MonoBehaviour
     public int health;
         
     public POV pov = POV.dolje;
+    
     // Start is called before the first frame update
     void Start()
     {
         srajt = GetComponent<SpriteRenderer>();
         amanam = GetComponent<Animator>();
+       
     }
 
     // Update is called once per frame

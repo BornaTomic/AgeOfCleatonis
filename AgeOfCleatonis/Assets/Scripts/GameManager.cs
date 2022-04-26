@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+ IO
+    public static GameManager instance;        //instanciranje
+    private void Awake()
+
     public static GameManager instance;
     public GameObject GameUI;
     public GameObject PauseUI;
@@ -22,13 +26,20 @@ public class GameManager : MonoBehaviour
         }
     }
     void Start()
+ main
     {
-        
+        if (GameManager.instance != null)                  //PROVJERA SINGLETONA OVO SVE VISE MANJE TAK DA ONO
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        instance = this;
+        DontDestroyOnLoad(gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public int coins;
+    public int hp;
+
+
 }

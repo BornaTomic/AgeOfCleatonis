@@ -5,8 +5,9 @@ using UnityEngine;
 public class OrcEnemy : Enemy
 {
     public Transform target;
-    public float chaseRadius;
     public float attackRadius;
+    public float chaseRadius;
+
     //public Transform homePosition;
     private Animator anime;
     // Start is called before the first frame update

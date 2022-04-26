@@ -20,7 +20,7 @@ public class Coin : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            GameManager.coinCounter=+1;
+            Quest.coinCounter=+1;
             Destroy(gameObject);
         }
     }

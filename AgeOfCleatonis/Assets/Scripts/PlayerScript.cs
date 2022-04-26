@@ -88,8 +88,8 @@ public class PlayerScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            health--;
-            if (health == 0)
+            PlayerHealth.instance.currentHealth--;
+            if (PlayerHealth.instance.currentHealth == 0)
             {
                 SceneManager.LoadScene("GameOver");
             }

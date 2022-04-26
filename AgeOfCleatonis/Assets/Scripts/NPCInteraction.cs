@@ -26,7 +26,7 @@ public class NPCInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && isCollision && GameManager.coinCounter == 0)
+        if (Input.GetKeyDown(KeyCode.E) && isCollision && Quest.coinCounter == 0)
         {
             //Cursor.lockState = CursorLockMode.None;
             //tekstOdNpca.SetActive(true);
@@ -37,7 +37,7 @@ public class NPCInteraction : MonoBehaviour
             //tekst.SetActive(false);
         }
 
-        else if (Input.GetKeyDown(KeyCode.E) && isCollision && GameManager.coinCounter == 5)
+        else if (Input.GetKeyDown(KeyCode.E) && isCollision && Quest.coinCounter == 5)
         {
             //Cursor.lockState = CursorLockMode.None;
             //tekstOdNpca.SetActive(true);

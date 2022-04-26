@@ -51,11 +51,11 @@ TagManager:
   - name: detalji
     uniqueID: 2641738533
     locked: 0
-  - name: veci detalji
-    uniqueID: 2408597561
-    locked: 0
   - name: Player
     uniqueID: 3112028003
+    locked: 0
+  - name: veci detalji
+    uniqueID: 2408597561
     locked: 0
   - name: jos veci detalji
     uniqueID: 859180067

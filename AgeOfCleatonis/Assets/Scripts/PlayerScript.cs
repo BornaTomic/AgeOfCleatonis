@@ -8,16 +8,13 @@ public class PlayerScript : MonoBehaviour
     public float speed = 7f;
     private Animator amanam;
     private SpriteRenderer srajt;
-    public int health;
-        
+    public int health = 5;
     public POV pov = POV.dolje;
-    
     // Start is called before the first frame update
     void Start()
     {
         srajt = GetComponent<SpriteRenderer>();
         amanam = GetComponent<Animator>();
-       
     }
 
     // Update is called once per frame
@@ -91,8 +88,8 @@ public class PlayerScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            health--;
-            if (health == 0)
+            PlayerHealth.instance.currentHealth--;
+            if (PlayerHealth.instance.currentHealth == 0)
             {
                 SceneManager.LoadScene("GameOver");
             }

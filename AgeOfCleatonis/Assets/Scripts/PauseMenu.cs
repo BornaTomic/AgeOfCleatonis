@@ -31,7 +31,7 @@ public class PauseMenu : MonoBehaviour
     public void Resume()
     {
 
-        PauseManager.instance.PauseUI.SetActive(false);
+        GameManager.instance.PauseUI.SetActive(false);
 
         //GameManager.instance.PauseUI.SetActive(false);
 
@@ -41,7 +41,7 @@ public class PauseMenu : MonoBehaviour
     void PauseOn()
     {
 
-        PauseManager.instance.PauseUI.SetActive(true);
+        GameManager.instance.PauseUI.SetActive(true);
 
         //GameManager.instance.PauseUI.SetActive(true);
 

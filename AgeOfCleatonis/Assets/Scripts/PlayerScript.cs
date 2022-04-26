@@ -8,7 +8,8 @@ public class PlayerScript : MonoBehaviour
     public float speed = 7f;
     private Animator amanam;
     private SpriteRenderer srajt;
-    public int health = 5;
+    public int health;
+        
     public POV pov = POV.dolje;
     // Start is called before the first frame update
     void Start()

@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/\u0160uma.unity"
     guid: 9a4f6994ef1460440838acc21a46ac6a
+  - enabled: 1
+    path: "Assets/Scenes/Ku\u0107a na ribnjaku.unity"
+    guid: 00c9da9c507c9ee49a5632bc046626de
   m_configObjects: {}

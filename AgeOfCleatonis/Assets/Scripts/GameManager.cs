@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
- IO
-    public static GameManager instance;        //instanciranje
-    private void Awake()
-
     public static GameManager instance;
     public GameObject GameUI;
     public GameObject PauseUI;
     public bool IsPaused = false;
+
+    public int coins;
+    public int hp;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -26,7 +25,6 @@ public class GameManager : MonoBehaviour
         }
     }
     void Start()
- main
     {
         if (GameManager.instance != null)                  //PROVJERA SINGLETONA OVO SVE VISE MANJE TAK DA ONO
         {
@@ -37,9 +35,4 @@ public class GameManager : MonoBehaviour
         instance = this;
         DontDestroyOnLoad(gameObject);
     }
-
-    public int coins;
-    public int hp;
-
-
 }
